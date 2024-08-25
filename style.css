@@ -1,0 +1,146 @@
+/* Aplico el tipo de letra que voy a usar en la página */
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Saco los margenes que tiene el ordenador por defecto */
+body{
+    margin: 0;
+}
+section{
+    
+}
+/* Estilo de la cabecera */
+header{
+    font-size: 32px;
+    text-align: center;
+    text-decoration:none;
+    background-color: rgb(55, 54, 54);
+    color: rgb(255, 255, 255);
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+}
+/* Estilo de div */
+.seccion_1{
+    margin: 15px auto;
+    padding: 10px; 
+    border-radius: 8px; 
+}
+/*Estilo titulo*/
+section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+/*Estilo parrafo*/
+.seccion_1 p {
+    font-size: 16px;
+    text-align: left;
+    text-decoration: underline;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+}
+/* Estilo blockquote */
+.seccion_1 blockquote {
+  font-size: 16px;
+  color: black;
+  background-color: rgb(234, 234, 234);
+  font-style: italic;
+  padding: 10px;
+  margin:0;
+  text-align: left;
+  border-left: 5px solid rgb(180, 180, 190) ;
+}
+/* Estilo caja 1 */
+.caja_1{
+    padding: 5px;
+    margin: auto;
+    margin-top: 25px;
+    width: 90%;
+    height: 60px;
+    /* box-shadow: 5px 4px 12px 1px black; */
+    border: 2px solid black;
+    border-radius: 16px;
+    background-color:rgb(192, 252, 248);
+    text-align: left;
+}
+/* Espacio parrafo-caja2 */
+.caja_1 p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/* Estilo caja 2 */
+.caja_2{
+    text-align:left;
+    padding: 5px;
+    margin: auto;
+    margin-top: 25px;
+    width: 90%;
+    height: 60px;
+    box-shadow: 5px 4px 12px 1px black;
+    border: 3px solid black;
+    border-radius: 16px;
+    background-color:rgb(76, 190, 171);
+}
+/* Espacio parrafo-caja2 */
+.caja_2 p {
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+}
+/* Caja con posicion relativa (padre) */
+.caja_relativa{
+    text-align:left;
+    padding: 5px;
+    margin: auto;
+    margin-top: 25px;
+    width: 90%;
+    height: 60px;
+    background-color:rgb(192, 252, 248);
+    position: relative;
+    border-radius: 5px;
+}
+/* Estilo parrafo de caja relativa */
+.caja_relativa p{
+    font-size: 14px;
+}
+/* Caja con posicion absoluta (hija) */
+.caja_absoluta{
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 25px;
+    width: 510px;
+    height: 50px;
+    background-color:rgb(0, 155, 155);
+    text-align: left;    
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+/* Estilo parrafo de caja absoluta */
+.caja_absoluta p{
+    font-size: 12px;    
+    text-align: center;
+    color: white;
+}
+@media (max-width: 768px) {
+    body{
+        background-color: rgb(218, 102, 222)); /* Cambia el color de fondo del body */
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Reduce el tamaño de la fuente del encabezado h1 */
+        color: ;
+    }
+
+    section {
+        width: 90%; /* Ajusta el ancho de la sección para dispositivos móviles */
+        padding: 10px; /* Reduce el padding de la sección */
+    }
+    .seccion_1{
+        background-color: black;
+    }
+}
