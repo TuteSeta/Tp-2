@@ -14,4 +14,4 @@ Este proyecto tiene como finalidad aprender a darle estilo a un archivo html con
 #Ejecucion#
 Para abrir la pagina web puede:
 Opcion 1: Descargar el archivo .html y ejecutarlo mediante un navegador
-Opcion 2: Acceder desde el siguiente link https://tuteseta.github.io/Tp-2/
+Opcion 2: Acceder desde el siguiente link https://tuteseta.github.io/Tp-CSS/
